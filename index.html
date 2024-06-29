@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Satria Aryandhi</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome 5.15.4 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="assets/img/Logo.png" alt="Logo">
+                <h3>Satria Aryandhi Febrian Koto</h3>
+            </div>
+            <div class="burger-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-list">
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#Education">Education</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <aside>
+            <article class="profile card">
+                <header>
+                    <h2>Satria Aryandhi Febrian Koto</h2>
+                    <figure>
+                      <img src="assets/img/Satria.png" />
+                      <figcaption>Mahasiswa</figcaption>
+                    </figure>
+                  </header>
+                  <section>
+                    <h3>Biodata :</h3>
+                    <table>
+                        <tr>
+                          <th>Nama</th>
+                          <td>Satria Aryandhi Febrian Koto</td>
+                        </tr>
+                        <tr>
+                          <th>Tanggal Lahir</th>
+                          <td>9 Februari 2003</td>
+                        </tr>
+                        <tr>
+                          <th>Domisili</th>
+                          <td>Bandung</td>
+                        </tr>
+                        <tr>
+                          <th>Tinggi</th>
+                          <td>170cm</td>
+                        </tr>
+                      </table>
+                  </section>
+            </article>
+        </aside>
+        <div class="content">
+            <article id="Home" class="card">
+                <center><h1>WELCOME TO MY WEBSITE!</h1></center>
+                <p>
+                    Hello and welcome to my website! My name is Satria and I'm delighted to have you here. I'm a passionate and dedicated student currently pursuing a degree in Computer Science. This website serves as a platform for me to share my journey, experiences, and knowledge as a Computer Science student.
+                    <br><br>
+                    As a student of Computer Science, I'm deeply fascinated by the ever-evolving world of technology. From learning programming languages to exploring artificial intelligence and machine learning, my journey in the field of Computer Science has been both challenging and rewarding. Through this website, I aim to document my experiences, share insights, and provide resources for fellow students and technology enthusiasts.
+                    <br><br>
+                    Whether you're a fellow student, a tech enthusiast, or someone curious about the world of Computer Science, I hope you find valuable insights and inspiration here. Feel free to explore the articles, tutorials, and resources I've curated. Thank you for joining me on this journey!
+                </p>
+            </article>
+            <article id="Education" class="card">
+                <center><h1>EDUCATIONAL BACKGROUND</h1>
+                <table>
+                    <tr>
+                        <td class="thn">2009 - 2015</td>
+                        <td>SDN 2 Rancaekek</td>
+                    </tr>
+                    <tr>
+                        <td class="thn">2015 - 2018</td>
+                        <td>SMPN 1 Rancaekek</td>
+                    </tr>
+                    <tr>
+                        <td class="thn">2018 - 2021</td>
+                        <td>SMK Bakti Nusantara 666</td>
+                    </tr>
+                    <tr>
+                        <td class="thn">2021 - now</td>
+                        <td>Universitas Muhammadiyah Bandung</td>
+                    </tr>
+                </table></center>
+            </article>
+            <article id="Contact" class="card">
+                <center><h1>CONTACT</h1></center>
+                <p>
+                  <ul>
+                    <li><a href="https://www.linkedin.com/in/satria-aryandhi-b693622b6/"><i class="fab fa-linkedin-in"></i></a></li>
+                    <li><a href="https://www.instagram.com/dl_dkfi923/"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="mailto:SatriaAF923@gmail.com"><i class="fab fa-google"></i></a></li>
+                  </ul>
+                </p>
+            </article>
+        </div>
+    </main>
+    
+    <footer>
+        <p>Copyright &#169; 2024, Satria Aryandhi Febrian Koto</p>
+    </footer>
+
+    <script>
+        const burgerMenu = document.querySelector('.burger-menu');
+        const navList = document.querySelector('.nav-list');
+    
+        burgerMenu.addEventListener('click', () => {
+            navList.classList.toggle('active');
+        });
+    </script>
+
+</body>
+</html>
